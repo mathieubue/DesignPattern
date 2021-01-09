@@ -72,7 +72,10 @@ namespace Part3
 			}
 			return current;
 		}
-
+		protected void NotifyJailObsrver()
+		{
+			JailObserver.Update();
+		}
 		public void Play()
 		{
 			Cell Start = this.location;
@@ -86,6 +89,7 @@ namespace Part3
 				//Check Jail
 				if (this.location.Value == 30)
 				{
+					this.NotifyJailObsrver();
 					this.location = this.getJail();
 					this.jail = true;
 				}
@@ -100,6 +104,7 @@ namespace Part3
 					//Check Jail
 					if (this.location.Value == 30)
 					{
+						this.NotifyJailObsrver();
 						this.location = this.getJail();
 						this.jail = true;
 					}
@@ -114,6 +119,7 @@ namespace Part3
 						//double - Roll 3
 						if(roll[0] == roll[1])
 						{
+							this.NotifyJailObsrver();
 							this.location = this.getJail();
 							this.jail = true;
 						}
@@ -123,6 +129,7 @@ namespace Part3
 							//Check Jail
 							if (this.location.Value == 30)
 							{
+								this.NotifyJailObsrver();
 								this.location = this.getJail();
 								this.jail = true;
 							}
