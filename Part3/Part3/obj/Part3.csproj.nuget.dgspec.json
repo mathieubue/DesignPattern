@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\M BUE\\Documents\\GitHub\\DesignPattern\\Part3\\Part3\\Part3.csproj": {}
+    "C:\\Users\\cypri\\Desing patterns Project\\Part3\\Part3\\Part3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\M BUE\\Documents\\GitHub\\DesignPattern\\Part3\\Part3\\Part3.csproj": {
+    "C:\\Users\\cypri\\Desing patterns Project\\Part3\\Part3\\Part3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\M BUE\\Documents\\GitHub\\DesignPattern\\Part3\\Part3\\Part3.csproj",
+        "projectUniqueName": "C:\\Users\\cypri\\Desing patterns Project\\Part3\\Part3\\Part3.csproj",
         "projectName": "Part3",
-        "projectPath": "C:\\Users\\M BUE\\Documents\\GitHub\\DesignPattern\\Part3\\Part3\\Part3.csproj",
-        "packagesPath": "C:\\Users\\M BUE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\M BUE\\Documents\\GitHub\\DesignPattern\\Part3\\Part3\\obj\\",
+        "projectPath": "C:\\Users\\cypri\\Desing patterns Project\\Part3\\Part3\\Part3.csproj",
+        "packagesPath": "C:\\Users\\cypri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cypri\\Desing patterns Project\\Part3\\Part3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\M BUE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cypri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
