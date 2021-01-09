@@ -17,12 +17,11 @@ namespace Part3
 		}
 		static void Main(string[] args)
 		{
-			Board b = new Board();
+			Board b = BoardFactory.CreateBoard();
 			b.Start = b.initBoard();
 			printBoard(b);
-			Console.WriteLine(b.Start.ToString());
 
-			Player player1 = new Player("player1", b.Start,b);
+			Player player1 = playerFactory.CreatePlayer("player1", b.Start,b);
 			player1.Play();
 			player1.Play();
 			player1.Play();
