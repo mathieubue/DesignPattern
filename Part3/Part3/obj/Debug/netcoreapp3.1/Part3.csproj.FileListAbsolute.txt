@@ -1,0 +1,13 @@
+C:\Users\M BUE\Documents\GitHub\DesignPattern\Part3\Part3\bin\Debug\netcoreapp3.1\Part3.exe
+C:\Users\M BUE\Documents\GitHub\DesignPattern\Part3\Part3\bin\Debug\netcoreapp3.1\Part3.deps.json
+C:\Users\M BUE\Documents\GitHub\DesignPattern\Part3\Part3\bin\Debug\netcoreapp3.1\Part3.runtimeconfig.json
+C:\Users\M BUE\Documents\GitHub\DesignPattern\Part3\Part3\bin\Debug\netcoreapp3.1\Part3.runtimeconfig.dev.json
+C:\Users\M BUE\Documents\GitHub\DesignPattern\Part3\Part3\bin\Debug\netcoreapp3.1\Part3.dll
+C:\Users\M BUE\Documents\GitHub\DesignPattern\Part3\Part3\bin\Debug\netcoreapp3.1\Part3.pdb
+C:\Users\M BUE\Documents\GitHub\DesignPattern\Part3\Part3\obj\Debug\netcoreapp3.1\Part3.csprojAssemblyReference.cache
+C:\Users\M BUE\Documents\GitHub\DesignPattern\Part3\Part3\obj\Debug\netcoreapp3.1\Part3.AssemblyInfoInputs.cache
+C:\Users\M BUE\Documents\GitHub\DesignPattern\Part3\Part3\obj\Debug\netcoreapp3.1\Part3.AssemblyInfo.cs
+C:\Users\M BUE\Documents\GitHub\DesignPattern\Part3\Part3\obj\Debug\netcoreapp3.1\Part3.csproj.CoreCompileInputs.cache
+C:\Users\M BUE\Documents\GitHub\DesignPattern\Part3\Part3\obj\Debug\netcoreapp3.1\Part3.dll
+C:\Users\M BUE\Documents\GitHub\DesignPattern\Part3\Part3\obj\Debug\netcoreapp3.1\Part3.pdb
+C:\Users\M BUE\Documents\GitHub\DesignPattern\Part3\Part3\obj\Debug\netcoreapp3.1\Part3.genruntimeconfig.cache
