@@ -33,9 +33,9 @@ namespace Part1
 			Console.WriteLine("----------------");
 			foreach (int i in myCustomQueueInt)
 			{
-				Console.WriteLine(i);
+				Console.Write(i + " ");
 			}
-			Console.WriteLine("----------------");
+			Console.WriteLine("\n----------------");
 			Console.WriteLine(myCustomQueueInt.ToString());
 			myCustomQueueInt.Dequeue();
 			Console.WriteLine(myCustomQueueInt.ToString());
