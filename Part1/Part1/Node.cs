@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Part1
 {
-	class Node<T> : IEquatable<Node<T>>
+	public class Node<T> : IEquatable<Node<T>>
 	{
 		public Node(T val)
 		{

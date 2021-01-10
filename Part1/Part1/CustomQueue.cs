@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Part1
 {
-	class CustomQueue<T> : IEnumerable<T>
+	public class CustomQueue<T> : IEnumerable<T>
 	{
 		private Node<T> root;
 
