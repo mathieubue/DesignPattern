@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Part3
 {
-	class playerFactory
+	public class playerFactory
 	{
 		public static Player CreatePlayer(string name, Cell location, Board board )
 		{

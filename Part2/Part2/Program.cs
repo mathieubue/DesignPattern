@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Part2
 {
-	class Program
+	public class Program
 	{
 		private static readonly FileInfo InputFile = new FileInfo("data.txt");
 		private static char[] separator = { ' '};
@@ -65,7 +65,7 @@ namespace Part2
 			}
 		}
 
-		private static void Map(IDictionary<string, int> wordCounts, string word)
+		public static void Map(IDictionary<string, int> wordCounts, string word)
 		{
 			if (wordCounts.TryGetValue(word, out int count))
 			{

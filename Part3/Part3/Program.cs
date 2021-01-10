@@ -2,7 +2,7 @@
 
 namespace Part3
 {
-	class Program
+	public class Program
 	{
 		public static void printBoard(Board b)
 		{
@@ -19,7 +19,8 @@ namespace Part3
 		{
 			Board b = BoardFactory.CreateBoard();
 			b.Start = b.initBoard();
-			printBoard(b);
+			//printBoard(b);
+			// affiche toutes les cases du board
 
 			Player player1 = playerFactory.CreatePlayer("player1", b.Start,b);
 			player1.Play();

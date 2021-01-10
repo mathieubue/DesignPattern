@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Part3
 {
-	class BoardFactory
+	public class BoardFactory
 	{
 		public static Board CreateBoard()
 		{

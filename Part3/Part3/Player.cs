@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Part3
 {
-	class Player
+	public class Player
 	{
 		private string name;
 		private bool jail;
-		private Cell location;
+		public Cell location;
 		private Board board;
 		private int count = 0;
 
@@ -50,7 +50,7 @@ namespace Part3
 			Console.WriteLine("Roll : " + dice1 + " | " + dice2);
 			return results;
 		}
-		protected Cell Move(int number)
+		public Cell Move(int number)
 		{
 			int move = number;
 			while(move>0)
@@ -61,7 +61,7 @@ namespace Part3
 			return this.location;
 		}
 
-		protected Cell getJail()
+		public Cell getJail()
 		{
 			Cell current = this.board.Start;
 			int i = 0;

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Part3
 {
-	class Cell
+	public class Cell
 	{
 		private int value;
 		private Cell next;

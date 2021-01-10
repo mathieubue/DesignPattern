@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Part3
 {
-	class Board
+	public class Board
 	{
 		private Cell start;
 
